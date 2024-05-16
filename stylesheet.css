@@ -1,0 +1,82 @@
+html {
+    background: #b9d8e4;
+    }
+    p{
+      color: black;
+
+    font-family:'Comic sans MS', cursive;
+    }
+       
+
+/*HEADER WITH NAVIGATION*/
+
+header {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  justify-content: center;
+}
+/*FOOTER*/
+
+.footer {     position: fixed;  height:25;   left: 0;     bottom:0;     width: 100%;     background-color: #FFF;     color: black;     text-align: center;     padding: 0px 0; /* Add padding for better appearance */  }
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.social-media {
+  flex: 1;
+}
+
+.social-icon {
+  margin-right: 10px;
+}
+
+/* FLEXBOX */
+/* Apply Flexbox to the main container */
+.flex-container {
+  display: flex;
+  justify-content: CENTER;
+  background-color: white;
+  padding: 0px;
+}
+
+/* Style each flex item (section) */
+.flex-item {
+  flex: 1;
+  padding: 1px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Style the heading and paragraph inside each section */
+.flex-item h2 {
+  color: black;
+}
+
+.flex-item p {
+  color: black;
+}
+
